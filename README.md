@@ -10,3 +10,7 @@ mvn clean package
 
 java --module-path target/libs:target/vertx-modular-1.0-SNAPSHOT.jar --module com.sebastian.vertx.modular/com.sebastian.vertx.modular.VertxModular
 
+### usar jlink:
+
+bash link.sh
+
